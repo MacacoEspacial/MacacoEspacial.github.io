@@ -18,7 +18,7 @@
  * Released under the MIT License.
  */
 
-if (!(typeof window.google === '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126967.89516434589!2d-38.090778543868055!3d-6.029459136378449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7bb281bedec5301%3A0x1b6b19b5bfae9e76!2sPortalegre+-+RN!5e0!3m2!1spt-BR!2sbr!4v1464127088435" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>' && window.google.maps)) {
+if (!(typeof window.google === 'object' && window.google.maps)) {
   throw 'Google Maps API is required. Please register the following JavaScript library http://maps.google.com/maps/api/js?sensor=true.'
 }
 
