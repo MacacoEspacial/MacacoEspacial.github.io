@@ -527,11 +527,10 @@ h2 {
 }
 
 .about-content {
-  width: 100%;
-  height: 100%;
-  background-image: url("../images/about-bg.jpg");
+  background-image: url("../images/about-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
+  padding-right: -150px;
 
 }
 
