@@ -535,13 +535,14 @@ h2 {
 #about h2 {
   margin-bottom: 40px;
   margin-top: 70px;
+  padding-left: 700px;
 }
 
 .about-content p{
   font-size: 17px;
   font-family: 'Dosis',sans-serif;
   padding-left: 700px;
-  padding-right: 15px;
+  padding-right: 35px;
 }
 
 #about .btn-primary {
