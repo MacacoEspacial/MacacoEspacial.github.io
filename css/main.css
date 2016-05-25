@@ -152,7 +152,7 @@ h2 {
 
 .navbar-brand {
   background-color: #000;
-  height: 100px;
+  height: 95px;
   margin-bottom: 20px;
   position: relative;
   width: 305px;
@@ -306,12 +306,11 @@ h2 {
 
 #explore {
   /*background-color: #C34C39;*/
-  background-image: url("../images/event-bg.jpg");
+  background-image: url("../images/event-bg.png");
   background-repeat:no-repeat;
-  background-size: cover;
-  position: relative;
-  overflow: hidden;
-  padding: 130px 0 100px;
+  background-size: cover;  
+  background-clip: border-box;
+  padding: 100px 0px 130px 130px;
 }
 
 .watch {
@@ -324,7 +323,7 @@ h2 {
   font-size: 42px;
   text-transform: uppercase;
   text-align: center;
-  padding-left: 80px;
+  margin-left: 100px;
 }
 
 #countdown {
