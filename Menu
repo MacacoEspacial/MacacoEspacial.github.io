@@ -1,0 +1,21 @@
+os sub menus que eu tava falando era dentro de >O EVENTO e  >A CIDADE
+(MENU) >O EVENTO
+>> SOBRE
+>> CONOGRAMA
+>> ATRAÇÕES
+(MENU) A CIDADE
+>> SOBRE
+>> ONDE FICAR
+>> ONDE COMER
+>> O QUE VISITAR
+>> COMO CHEGAR (um mapa google)
+
+<div class="dropdown">
+							  <li class="dropbtn scroll">A Cidade</li>
+							  <div class="dropdown-content">
+							    <a class="scroll-a" href="#twitter">Sobre</a>
+							    <a class="scroll-a" href="#">Onde Comer?</a>
+							    <a class="scroll-a" href="#">O que visitar?</a>
+							    <a class="scroll-a" href="#contact">Como chegar?</a>
+							  </div>
+							</div> 

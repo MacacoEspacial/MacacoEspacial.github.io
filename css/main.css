@@ -12,6 +12,56 @@ body {
   color: #fff
 }
 
+.dropbtn {
+    padding: 29px 21px;
+    font-size: 22px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Yanone Kaffeesatz', 'sans-serif';
+    font-weight: 300;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,1);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: #ffa700;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #fff;
+    color: #ffa700;
+}
+
+.pjust {
+    text-align: justify;
+}
+
 .btn {
   border-radius: 0;
   font-family: 'Yanone Kaffeesatz','sans-serif';
@@ -102,7 +152,7 @@ h2 {
 
 .navbar-brand {
   background-color: #000;
-  height: 90px;
+  height: 100px;
   margin-bottom: 20px;
   position: relative;
   width: 305px;
@@ -110,7 +160,8 @@ h2 {
 
 .navbar-brand img {
   position: absolute;
-  top: -35px;
+  top: -60px;
+  padding-left: 30px;
 }
 
 .navbar-right {
@@ -214,7 +265,7 @@ h2 {
 #main-slider 
 .carousel-caption a {
   font-size: 22px;
-  color: #2da1c5
+  color: #ffa700;
 }
 
 #main-slider 
@@ -239,8 +290,8 @@ h2 {
 
 #main-slider 
 .carousel-indicators li {
-  background-color:#1B7B98;
-  border: 1px solid #1B7B98;
+  background-color: #ffa700;
+  border: 1px solid #ffa700;
 }
 
 #main-slider 
@@ -254,11 +305,10 @@ h2 {
 **************************/
 
 #explore {
-  background-color: #C34C39;
+  /*background-color: #C34C39;*/
   background-image: url("../images/event-bg.jpg");
-  background-position: center bottom;
-  background-size: contain;
   background-repeat:no-repeat;
+  background-size: cover;
   position: relative;
   overflow: hidden;
   padding: 130px 0 100px;
@@ -274,13 +324,14 @@ h2 {
   font-size: 42px;
   text-transform: uppercase;
   text-align: center;
+  padding-left: 80px;
 }
 
 #countdown {
   display: block;
   overflow: hidden;
   text-align: center;
-  padding: 0
+  padding: 0 20px 0 0px;
 }
 
 #countdown li {
@@ -461,7 +512,7 @@ h2 {
 **************************/
 
 #about {
-  background-color: #75B46E;  
+  /*background-color: #75B46E; */ 
   position: relative;  
   width: 100%;
   display: flex;
@@ -469,7 +520,7 @@ h2 {
 
 .guitar2 {
   top: 0;
-  width: 50%;
+  width: 40%;
 }
 
 .guitar2 img {
@@ -477,22 +528,25 @@ h2 {
 }
 
 .about-content {
-  width: 50%;
-   background-image: url("../images/about-bg.jpg");
-  background-position: left bottom;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/about-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 70px 70px 110px;
-}
 
+}
 
 #about h2 {
-  margin-bottom: 23px;
+  margin-bottom: 40px;
+  margin-top: 70px;
+  padding-left: 700px;
 }
 
-.about-content p {
+.about-content p{
   font-size: 17px;
   font-family: 'Dosis',sans-serif;
+  padding-left: 700px;
+  padding-right: 15px;
 }
 
 #about .btn-primary {
