@@ -133,7 +133,13 @@
 #contact .container {
     padding-left: 15px !important;
 }
+#about h2 {
+  padding-left: 0px !important;
+}
 
+.about-content p {
+  padding-left: 0px !important;
+}
   .fixed-menu {
     position: absolute !important;
   }
