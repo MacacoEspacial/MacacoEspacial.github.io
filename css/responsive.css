@@ -130,6 +130,10 @@
     position: absolute !important;
   }
 
+#contact .container {
+    padding-left: 15px !important;
+}
+
   .fixed-menu {
     position: absolute !important;
   }
