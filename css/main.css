@@ -911,8 +911,8 @@ h2 {
 
 #programacao h3 {
     font-size: 20px;
-    background: #64B228;
-    color: #FFF;
+    background: #C49A6C;
+    color: black;
     text-align: center;
     padding: 10px;
     margin-bottom: 30px;
@@ -928,3 +928,34 @@ h2 {
     color: #3A2222;
     font-size: 0.8em;
 }
+
+
+
+
+#cronograma {
+  background-color: #fff;
+  /* background-image: url("../images/sponsor-bg.jpg"); */
+  background-position:50% 0;
+  background-size: cover;
+  background-repeat:no-repeat;
+  position: relative;
+}
+
+.light {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+#crononograma .col-sm-10 {
+  z-index: 10;
+}
+
+#cronograma h2 {
+  margin-top: 90px;
+  margin-bottom: 40px;
+  color: black;
+  font-size: 40px;
+}
+
+
