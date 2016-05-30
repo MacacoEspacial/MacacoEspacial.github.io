@@ -566,17 +566,13 @@ h2 {
   display: flex;
 }
 
-#twitter h2 {
-  margin-bottom: 40px;
-  margin-top: 70px;
-  padding-left: 700px;
-}
+
 
 .about-contente p{
-  font-size: 17px;
+  font-size: 15px;
   font-family: 'Dosis',sans-serif;
-  padding-left: 700px;
-  padding-right: 35px;
+  padding-left: 10px;
+  padding-right: 860px;
 }
 
 #twitter .btn-primary {

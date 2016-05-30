@@ -26,6 +26,7 @@
     padding: 20px;
   }
 
+  
 
   #countdown li {
     margin-right: 30px;
@@ -70,6 +71,12 @@
     padding:20px 11px;
     font-size: 17px;
   }
+
+  #twitter h2 {
+    margin-bottom: 40px !important;
+    margin-top: 70px !important;
+    padding-left: 10px !important;
+}
 
   .fixed-menu .container {
     width: 100%;
@@ -136,6 +143,14 @@
 #about h2 {
   padding-left: 0px !important;
 }
+
+
+#twitter h2 {
+    margin-bottom: 40px !important;
+    margin-top: 70px !important;
+    padding-left: 10px !important;
+}
+
 
 .about-content p {
   padding-left: 0px !important;
@@ -312,6 +327,12 @@
   .fixed-menu .navbar-right li a {
     padding: 10px 25px;
   }
+
+  #twitter h2 {
+    margin-bottom: 40px;
+    margin-top: 70px;
+    padding-left: 10px !important;
+}
 
   /* Home */
 
