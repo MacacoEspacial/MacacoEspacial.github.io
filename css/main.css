@@ -21,6 +21,12 @@ body {
     font-weight: 300;
 }
 
+#twitter h2 {
+    margin-bottom: 40px;
+    margin-top: 70px;
+    padding-left: 700px;
+}
+
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
     position: relative;
@@ -571,8 +577,8 @@ h2 {
 .about-contente p{
   font-size: 15px;
   font-family: 'Dosis',sans-serif;
-  padding-left: 10px;
-  padding-right: 860px;
+  padding-left: 700px;
+  padding-right: 160px;
 }
 
 #twitter .btn-primary {
