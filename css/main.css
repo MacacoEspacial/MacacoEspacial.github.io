@@ -68,6 +68,13 @@ body {
     text-align: justify;
 }
 
+.bold {
+    text-align: justify;
+    font-weight: bold;
+    color: black;
+    font-size: 0.8em;
+}
+
 .btn {
   border-radius: 0;
   font-family: 'Yanone Kaffeesatz','sans-serif';
@@ -172,9 +179,8 @@ h2 {
 
 .navbar-right {
   background-color: #000000;
-  padding: 0 95px 0 0;
+  padding: 0 140px 0 0;
   opacity: .9;
-  /* margin-right: 30px; */
 }
 
 .navbar-right li a {
