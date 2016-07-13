@@ -19,7 +19,7 @@
  */
 
 if (!(typeof window.google === 'object' && window.google.maps)) {
-  throw AIzaSyAsRFMyypr75DOTrN29U4IpZL5zDZ37lkQ
+  throw 'Google Maps API is required. Please register the following JavaScript library http://maps.google.com/maps/api/js?sensor=true.'
 }
 
 var extend_object = function(obj, new_obj) {
