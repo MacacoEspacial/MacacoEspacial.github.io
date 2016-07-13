@@ -728,7 +728,7 @@ h2 {
 
 
 #map {
-  height:450px;
+  
 }
 
 
@@ -753,7 +753,7 @@ h2 {
 
 #contact .container {
   padding-top:47px;
-  padding-left: 250px;
+  padding-left: 240px;
 }
 
 #contact h3 {
@@ -827,7 +827,8 @@ h2 {
   background-size: cover;
   color: #FFFFFF;
   font-size: 20px;
-  padding: 35px 0;
+  padding: 30px 0;
+  margin-bottom: 0px;
 }
 
 #footer a {
