@@ -19,7 +19,7 @@
  */
 
 if (!(typeof window.google === 'object' && window.google.maps)) {
-  throw 'AIzaSyAsRFMyypr75DOTrN29U4IpZL5zDZ37lkQ'
+  throw AIzaSyAsRFMyypr75DOTrN29U4IpZL5zDZ37lkQ
 }
 
 var extend_object = function(obj, new_obj) {
