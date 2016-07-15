@@ -1,13 +1,51 @@
+jQuery.fn.countDown = function(settings,to) {
+	settings = jQuery.extend({
+		startFontSize: "100px",
+		endFontSize: "27px",
+		duration: 1000,
+		startNumber: 10,
+		endNumber: 0,
+		callBack: function() { }
+	}, settings);
+	return this.each(function() {
+		
+		//where do we start?
+		if(!to && to != settings.endNumber) { to = settings.startNumber; }
+		
+		//set the countdown to the starting number
+		jQuery(this).text(to).css("fontSize",settings.startFontSize);
+		
+		//loopage
+		jQuery(this).animate({
+			fontSize: settings.endFontSize
+		}, settings.duration, "", function() {
+			if(to > settings.endNumber + 1) {
+				jQuery(this).css("fontSize", settings.startFontSize).text(to - 1).countDown(settings, to - 1);
+			}
+			else {
+				settings.callBack(this);
+			}
+		});
+				
+	});
+};
+
+
 jQuery(function($) {'use strict',
 	
 	//Countdown js
 	 $("#countdown").countdown({
-			date: "20 octuber 2016 20:00:00",
+			date: "22 octuber 2016 08:00:00",
 			format: "on"
 		},
 		
 		function() {
-			// callback function
+			jQuery("#countdown").countDown({
+			startNumber: 10,
+				callBack: function(me) {
+				jQuery(me).text("O evento é Hoje! Sejam todos bem vindos! 0/").css("color", "#090");
+				}
+			});
 		});
 	
 
