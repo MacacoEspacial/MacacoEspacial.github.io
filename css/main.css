@@ -5,6 +5,11 @@
 /*************************
 *******Typography******
 **************************/
+.bt-color {
+    color: #fff;
+    background-color: #ffa700;
+    border-color: #ffa700;
+}
 
 body {
   font-family: 'Dosis', sans-serif;
