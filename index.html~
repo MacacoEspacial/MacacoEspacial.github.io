@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>1º Portalegre Moto Fest</title>
+    <title>2º Portalegre Moto Fest</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet">
@@ -35,7 +35,7 @@
 				<div class="header-top">
 					<div class="pull-right social-icons">
 						<!-- <a href="#"><i class="fa fa-twitter"></i></a> -->
-						<a href="https://www.facebook.com/events/285736391761559/" target="_blank"><i class="fa fa-facebook"></i></a>
+						<a href="https://www.facebook.com/events/122190411747231/" target="_blank"><i class="fa fa-facebook"></i></a>
 						<!-- <a href="#"><i class="fa fa-google-plus"></i></a> -->
 						<a href="#"><i class="fa fa-youtube"></i></a>
 					</div>
@@ -231,10 +231,10 @@
 		</div>  -->
 		<div class="about-content">					
 					<h2>O 1º Portalegre Moto Fest</h2>
-					<p class="pjust">O 1º Portalegre Moto Fest tem o intuito de proporcionar um evento aberto à todos os públicos, seja eles motociclistas ou não, proporcionando a população conhecer o meio que envolve o motociclismo. Além de gerar um ambiente de confraternização, amizade mútua e a interação entre os motociclistas seja mais prazerosa e quebrando alguns tabus impostos pela sociedade.</p>
-					<p class="pjust">O Evento proporciona divulgar uma modalidade esportiva, em forma de turismo, entretenimento e confraternização entre os integrantes dos Moto Clubes, Moto Grupos, e as demais nomeações que virão para o 1º Portalegre Moto Fest.
+					<p class="pjust">O 2º Portalegre Moto Fest tem o intuito de proporcionar um evento aberto à todos os públicos, seja eles motociclistas ou não, proporcionando a população conhecer o meio que envolve o motociclismo. Além de gerar um ambiente de confraternização, amizade mútua e a interação entre os motociclistas seja mais prazerosa e quebrando alguns tabus impostos pela sociedade.</p>
+					<p class="pjust">O Evento proporciona divulgar uma modalidade esportiva, em forma de turismo, entretenimento e confraternização entre os integrantes dos Moto Clubes, Moto Grupos, e as demais nomeações que virão para o 2º Portalegre Moto Fest.
 					</p>
-					<p class="pjust">Todos os participantes que irão fazer parte do 1º Portalegre Moto Fest, terão acesso aos seguintes serviços disponibilizados de forma gratuita:</p>
+					<p class="pjust">Todos os participantes que irão fazer parte do 2º Portalegre Moto Fest, terão acesso aos seguintes serviços disponibilizados de forma gratuita:</p>
 					<ul>
 					<p>Área de camping;</p>
 					<p>Sorteio de brindes (caso tenha);</p>
@@ -425,6 +425,7 @@
 							<address>
 								Caio Viana: <br>(84) 9 9612-2848 <br><br>
 								Samuel Dias: <br>(84) 9 9668-1721<br><br>
+								Yuri Freitas: <br>(84) 9 9942-0542<br>
 								E-mail: imperadoresdaserra@gmail.com
 								
 							</address>
@@ -451,7 +452,7 @@
     <footer id="footer">
         <div class="container">
             <div class="text-center">
-                <p> Copyright  &copy;2016<a target="_blank" href="https://www.facebook.com/events/285736391761559/"> Portalegre MotoFest. </a> Todos os Direitos Reservados. <br> Patrocinado por <a target="_blank" href="http://g4systems.com.br/">G4 Systems.</a></p>               
+                <p> Copyright  &copy;2016<a target="_blank" href="https://www.facebook.com/events/122190411747231/"> Portalegre MotoFest. </a> Todos os Direitos Reservados. <br> Patrocinado por <a target="_blank" href="http://g4systems.com.br/">G4 Systems.</a></p>               
             </div>
         </div>
     </footer>
